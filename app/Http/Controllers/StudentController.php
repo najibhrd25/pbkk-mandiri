@@ -12,9 +12,9 @@ class StudentController extends Controller
     public function show(string $nrp)
     {
         $student = [
-            'name' => 'Arya Rangga',
+            'name' => 'Mohammad Najib Bahrudin',
             'nrp' => $nrp,
-            'email' => 'arya.rangga@student.its.ac.id',
+            'email' => 'najib.bahrudin@student.its.ac.id',
             'major' => 'S1 Teknik Informatika',
             'department' => 'Departemen Teknik Informatika',
             'faculty' => 'Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC)',

@@ -12,8 +12,8 @@ class HomeController extends Controller
     public function index()
     {
         $student = [
-            'name' => 'Arya Rangga',
-            'nrp' => '5025241072',
+            'name' => 'Mohammad Najib Bahrudin',
+            'nrp' => '5025241230',
             'major' => 'S1 Teknik Informatika',
             'faculty' => 'Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC)',
             'university' => 'Institut Teknologi Sepuluh Nopember (ITS)',

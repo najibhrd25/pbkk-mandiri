@@ -1,8 +1,8 @@
 # MEMORY.md — Persistent Long-Term Memory
 
 ## Key Entities & Profile
-- **Student Name:** Arya Rangga
-- **NRP:** `5025241072`
+- **Student Name:** Mohammad Najib Bahrudin
+- **NRP:** `5025241230`
 - **Institution:** Institut Teknologi Sepuluh Nopember (ITS), Surabaya
 - **Department:** S1 Teknik Informatika (FTEIC)
 - **Cohort / Batch:** 2024

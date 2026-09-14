@@ -41,7 +41,7 @@
                     <span>Home</span>
                 </a>
 
-                <a href="{{ route('student.show', ['nrp' => '5025241072']) }}" class="ds-sidebar-item {{ request()->routeIs('student.show') ? 'active' : '' }}">
+                <a href="{{ route('student.show', ['nrp' => '5025241230']) }}" class="ds-sidebar-item {{ request()->routeIs('student.show') ? 'active' : '' }}">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
                     <span>Student Profile</span>
                 </a>
@@ -83,13 +83,13 @@
 
         <!-- Sidebar Footer Student Profile Snapshot -->
         <div class="p-3 border-t border-[#EDF1F5] bg-[#F8FAFC]">
-            <a href="{{ route('student.show', ['nrp' => '5025241072']) }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors border border-transparent hover:border-[#E2E8F0]">
+            <a href="{{ route('student.show', ['nrp' => '5025241230']) }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white transition-colors border border-transparent hover:border-[#E2E8F0]">
                 <div class="w-9 h-9 rounded-full bg-slate-200 text-slate-700 flex items-center justify-center font-bold text-xs">
-                    AR
+                    NB
                 </div>
                 <div class="flex flex-col min-w-0">
-                    <span class="text-xs font-semibold text-[#0F172A] truncate">Arya Rangga</span>
-                    <span class="text-[11px] text-[#64748B] font-mono">5025241072</span>
+                    <span class="text-xs font-semibold text-[#0F172A] truncate">Mohammad Najib Bahrudin</span>
+                    <span class="text-[11px] text-[#64748B] font-mono">5025241230</span>
                 </div>
             </a>
         </div>

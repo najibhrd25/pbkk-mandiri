@@ -22,7 +22,7 @@
         <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-6 border-b border-[#EDF1F5]">
             <div class="flex items-start gap-4">
                 <div class="w-16 h-16 rounded-xl bg-blue-50 border border-blue-200 text-blue-700 flex items-center justify-center font-bold text-xl shrink-0" style="font-family: var(--font-heading);">
-                    AR
+                    NB
                 </div>
                 <div class="space-y-1">
                     <div class="flex items-center gap-2">

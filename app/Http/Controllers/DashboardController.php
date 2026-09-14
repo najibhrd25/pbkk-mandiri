@@ -13,7 +13,7 @@ class DashboardController extends Controller
     {
         $dashboardData = [
             'greeting' => 'Selamat Datang di Control Center',
-            'user' => 'Arya Rangga (5025241072)',
+            'user' => 'Mohammad Najib Bahrudin (5025241230)',
             'role' => 'Mahasiswa / Author',
             'system_status' => 'ONLINE (Local Development Sandbox)',
             'last_sync' => now()->translatedFormat('d F Y, H:i') . ' WIB',
@@ -36,7 +36,7 @@ class DashboardController extends Controller
 
     public function profile()
     {
-        return redirect()->route('student.show', ['nrp' => '5025241072']);
+        return redirect()->route('student.show', ['nrp' => '5025241230']);
     }
 
     public function academic()

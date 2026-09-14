@@ -13,7 +13,7 @@ class RoutingVerificationTest extends TestCase
     {
         $response = $this->get(route('home'));
         $response->assertStatus(200);
-        $response->assertSee('Arya Rangga');
+        $response->assertSee('Mohammad Najib Bahrudin');
         $response->assertSee('Matriks Implementasi Routing Laravel');
     }
 
@@ -22,9 +22,9 @@ class RoutingVerificationTest extends TestCase
      */
     public function test_student_profile_with_valid_10_digit_nrp()
     {
-        $response = $this->get(route('student.show', ['nrp' => '5025241072']));
+        $response = $this->get(route('student.show', ['nrp' => '5025241230']));
         $response->assertStatus(200);
-        $response->assertSee('5025241072');
+        $response->assertSee('5025241230');
     }
 
     public function test_student_profile_rejects_alphanumeric_or_invalid_length_nrp()
@@ -77,7 +77,7 @@ class RoutingVerificationTest extends TestCase
 
         // Test dashboard profile redirect
         $redirectResponse = $this->get(route('dashboard.profile'));
-        $redirectResponse->assertRedirect(route('student.show', ['nrp' => '5025241072']));
+        $redirectResponse->assertRedirect(route('student.show', ['nrp' => '5025241230']));
     }
 
     /**
